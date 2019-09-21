@@ -1,0 +1,24 @@
+{
+  "name": "wyrihaximus/constants",
+  "description": "Collection of constants for PHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cees-Jan Kiewiet",
+      "email": "ceesjank@gmail.com",
+      "homepage": "https://www.wyrihaximus.net/"
+    }
+  ],
+  "require": {
+    "php": "^7.0 || ^5.3"
+  },
+  "config": {
+    "platform": {
+      "php": "5.3"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "files": ["src/Numeric/constants.php"]
+  }
+}
