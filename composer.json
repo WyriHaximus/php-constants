@@ -19,6 +19,6 @@
     "sort-packages": true
   },
   "autoload": {
-    "files": ["src/Numeric/constants.php"]
+    "files": ["src/Numeric/constants_include.php"]
   }
 }
