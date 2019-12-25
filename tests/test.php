@@ -4,6 +4,6 @@ require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR 
 
 exit(
     defined('WyriHaximus\Constants\Numeric\ZERO') &&
-    defined('WyriHaximus\Constants\HTTPStatusCodes\NO_FOUND') &&
+    defined('WyriHaximus\Constants\HTTPStatusCodes\NOT_FOUND') &&
     defined('WyriHaximus\Constants\Boolean\TRUE_') ? 0 : 255
 );
