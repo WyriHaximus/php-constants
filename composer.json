@@ -21,6 +21,7 @@
   "autoload": {
     "files": [
       "src/Boolean/constants_include.php",
+      "src/HTTPStatusCodes/constants_include.php",
       "src/Numeric/constants_include.php"
     ]
   }
