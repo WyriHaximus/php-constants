@@ -2,4 +2,4 @@
 
 namespace WyriHaximus\Constants\ComposerAutoloader;
 
-define('LOCATION', realpath(dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php'));
+define('WyriHaximus\Constants\ComposerAutoloader\LOCATION', realpath(dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php'));
