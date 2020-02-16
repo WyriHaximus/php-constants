@@ -9,6 +9,7 @@ exit(
     defined('WyriHaximus\Constants\HTTPStatusCodes\NOT_FOUND') &&
     defined('WyriHaximus\Constants\Boolean\NOT_FOUND') &&
     defined('WyriHaximus\Constants\ComposerAutoloader\LOCATION') &&
+    file_exists(LOCATION) &&
     $autoloader === require_once LOCATION &&
     require_once LOCATION instanceof ClassLoader ? 0 : 255
 );
