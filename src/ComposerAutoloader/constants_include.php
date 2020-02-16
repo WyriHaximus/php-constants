@@ -1,7 +1,7 @@
 <?php
 
-namespace WyriHaximus\Constants\Boolean;
+namespace WyriHaximus\Constants\ComposerAutoloader;
 
-if (!\defined('WyriHaximus\Constants\Boolean\TRUE_')) {
+if (!\defined('WyriHaximus\Constants\ComposerAutoloader\LOCATION')) {
     require __DIR__ . '/constants.php';
 }
