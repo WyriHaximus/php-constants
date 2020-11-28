@@ -3,11 +3,10 @@ on:
   push:
   pull_request:
 jobs:
-  qa:
+  test:
     strategy:
       matrix:
         php: [7.4, 8.0-rc]
-    needs: composer-install
     runs-on: ubuntu-latest
     container:
       image: wyrihaximusnet/php:${{ matrix.php }}-nts-alpine3.12-dev-root
